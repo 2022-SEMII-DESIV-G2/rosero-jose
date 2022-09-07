@@ -6,53 +6,67 @@
 html, 
 body {
   font-size: 18px;
-  background-color: #f5f6f7;
+  background-color: #c9caca;
+}
+
+.principal {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .titulo {
+
   max-width: 940px;
   font-size: 2.5em;
-  font-family: Lato, sans-serif;
+  font-family: 'Merienda', cursive, sans-serif;
   font-weight: 700;
   line-height: 1.1;
-  margin: 40px 0;
+  margin: 50px auto;
 }
 
 .contenedor-principal {
-  width: 1170px;
+  width: 1070px;
   height: 368px;
-  margin: 10px 10px 50px;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   text-align: center;
   background-color: #ffffff;
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 20%);
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 40%);
+  border-radius: 0.8rem;
 }
 
 .img-contenedor {
-  width: 80%;
-  height: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 2%;
+  margin: 10px 10px;
 }
 
 .contenedor-texto {
-  text-align: center;
   padding: 40px;
-  font-family: Lato, sans-serif;
+  font-family: 'Charm', cursive, sans-serif;
   font-weight: 400;
   line-height: 1.5rem;
+  margin: 10px auto;
 }
 
 .nombre {
-  font-size: 1.3rem;
+  font-size: 1.9rem;
+  margin: 20px auto;
 }
 
 .estudio {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   margin-top: 15px;
   padding-bottom: 30px;
+  margin: 20px auto;
 }
 
 .link {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   text-align: justify;
+  margin: 10px auto;
 }
