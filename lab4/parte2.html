@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/parte2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Laboratorio 4 - Parte 2</title>
+</head>
+<body>
+  <h1 class="titulo">Inputs</h1>
+  <div class="contenedor-principal">
+    <div class="contenedor-img"><img src="./img/perfilsf.png" alt="perfil" class="img-perfil"></div>
+    <form onsubmit="return enviarConsola()" class="formulario">
+      <div class="user">
+        <label for="" class="lb-user">User</label>
+        <input type="text" id="texto" name="texto" value="" class="txt-user">
+      </div>
+      <div class="password">
+        <label for="" class="lb-pass">Password</label>
+        <input type="password" id="password" name="password" value="" class="txt-pass">
+      </div>
+      <div class="boton">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+  <a href="./parte1.html">
+    <div class="anterior">Anterior</div>
+  </a>
+  <script type="text/javascript">
+    function enviarConsola(){
+        let dato = document.getElementById("texto").value
+        let dato2 = document.getElementById("password").value
+        console.log("el usuario es: ",dato,"& la contraseña es: ",dato2);
+        return(false);
+    }
+</script>
+</body>
+</html>
