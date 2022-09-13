@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html, 
+body {
+  background-color: #121212;
+}
+
+.titulo {
+    max-width: 940px;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color: azure;
+    margin: 50px auto;
+}
+
+.contenedor-principal {
+  width: 1070px;
+  height: 668px;
+  margin: 10px auto;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #2A2A2A;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 40%);
+  border-radius: 0.8rem;
+}
+
+.contenedor-img {
+    height: 375px;
+    width: 375px;
+    border-radius: 100%;
+    margin-right: 80px;
+    background-color: #c9caca;
+    border: 10px solid white;
+}
+
+.contenedor-img:hover {
+    background-color: aquamarine;
+}
+
+.img-perfil {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    margin-top: 45px;
+}
+
+.formulario {
+    font-size: 30px;
+    color: azure;
+}
+
+.user {
+    margin: 20px;
+    text-align: left;
+}
+
+.lb-user {
+    margin-right: 77px;
+}
+
+.password {
+    margin: 20px;
+    text-align: left;
+}
+
+.boton {
+    margin: 10px;
+    margin-top: 75px;
+}
+
+input {
+    font-size: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #c9caca;
+}
+
+button {
+    font-size: 30px;
+    height: 75px;
+    width: 250px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold ;
+    background-color: #c9caca;
+}
+
+button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.anterior {
+    height: 75px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position:absolute;                 
+    bottom:0; 
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: azure;
+    background-color: #2A2A2A;
+}
+
+.anterior:hover {
+    background-color: #c9caca;
+    color: #2A2A2A;
+}
