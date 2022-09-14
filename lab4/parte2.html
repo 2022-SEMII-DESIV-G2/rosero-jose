@@ -14,7 +14,7 @@
   <h1 class="titulo">Inputs</h1>
   <div class="contenedor-principal">
     <div class="contenedor-img"><img src="./img/perfilsf.png" alt="perfil" class="img-perfil"></div>
-    <form onsubmit="return enviarConsola()" class="formulario">
+    <form onsubmit="console.log('Usuario:',texto.value,'/ Contraseña:',password.value);event.preventDefault();" class="formulario"> <!-- Opcion 1: Recomendada por el profe -->
       <div class="user">
         <label for="" class="lb-user">User</label>
         <input type="text" id="texto" name="texto" value="" class="txt-user">
@@ -31,6 +31,7 @@
   <a href="./parte1.html">
     <div class="anterior">Anterior</div>
   </a>
+  <!-- Opcion 2: por si no encontraste la opcion 1 en google XD -->
   <script type="text/javascript">
     function enviarConsola(){
         let dato = document.getElementById("texto").value
