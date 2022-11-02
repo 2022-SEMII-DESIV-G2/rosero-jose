@@ -5,7 +5,7 @@
 }
 
 body, html {
-  background-color: #272727;
+  background-color: #83949E;
   min-height: 99vh;
   width: 99vw;
   display: flex;
@@ -18,7 +18,7 @@ body, html {
 .contenedorPrincipal {
   min-height: 95vh;
   width: 100vw;
-  background-color: #272727;
+  background-color: #83949E;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -31,7 +31,7 @@ body, html {
 .contenedorFormulario {
   width: 900px;
   height: 550px;
-  background: #696969;
+  background: #AEC4D1;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ body, html {
 .titulo {
   width: 440px;
   height: 85px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -60,7 +60,7 @@ body, html {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   border: none;
   color: white;
@@ -96,7 +96,7 @@ form {
 .subtitulo {
   width: 201px;
   height: 47px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -113,7 +113,7 @@ form {
   border-radius: 15px;
   outline: 0;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 25px;
 }
@@ -128,14 +128,14 @@ form {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   border: none;
   color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #141414;
+  background: #2B4452;
   color: #fff;
   cursor: pointer;
   transition: .5s ease all;
@@ -192,13 +192,13 @@ svg {
   height: 80px;
   font-size: 30px;
   border-radius: 10px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   border: none;
   color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #141414;
+  background: #2B4452;
   color: #fff;
   cursor: pointer;
   transition: .3s ease all;
@@ -259,7 +259,7 @@ svg {
 }
 
 .subtituloDos {
-  font-family: 'Gelasio', serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   font-size: 35px;
 }
@@ -269,7 +269,7 @@ svg {
   margin: 10px;
   letter-spacing: 2px;
   width: 100%;
-  font-family: 'Gelasio', serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   word-wrap: break-word;
   text-align:start;
@@ -279,7 +279,7 @@ svg {
   font-size: 30px;
   margin: 10px;
   letter-spacing: 3px;
-  font-family: 'Gelasio', serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
 }
 
@@ -287,8 +287,8 @@ svg {
   font-size: 30px;
   margin: 10px;
   letter-spacing: 3px;
-  font-family: 'Gelasio', serif;
-  color: red;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(247, 18, 18);
 }
 
 .contenedorPiramide {
@@ -310,10 +310,11 @@ svg {
 }
 
 .numero {
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   margin: 20px 10px 5px 10px;
-  background: #696969;
+  font-family: 'Montserrat', sans-serif;
+  background: #73B3D9;
   border: 2px solid black;
   border-radius: 5px;
   font-size: 1.5em;
@@ -323,5 +324,5 @@ svg {
 }
 
 .recorridoPiramide {
-  background-color: rgba(253, 12, 12, 0.884);
+  background-color: rgba(252, 19, 19, 0.884);
 }
