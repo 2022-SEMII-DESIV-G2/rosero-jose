@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(235, 224, 224);
+}
+
+.response {
+  min-width: 41vw;
+  min-height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nivel {
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.numero {
+    width: 38px;
+    height: 38px;
+    margin: 20px 10px 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    background: #73B3D9;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recorridoPiramide {
+    background-color: rgba(252, 19, 19, 0.884);
+  }
+
+  a {
+    margin: 100px 80px;
+  }
+  
+  button {
+    width: 250px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: rgba(102, 193, 205, 0.565);
+    border: 2px solid rgba(0, 0, 0, 0.539);
+  }
+
+  button:hover {
+    background-color: rgba(102, 193, 205, 0.637);
+    cursor: pointer;
+  }

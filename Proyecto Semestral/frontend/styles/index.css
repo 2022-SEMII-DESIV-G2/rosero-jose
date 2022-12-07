@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: #83949E;
+  min-height: 99vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 0 0;
+}
+
+.nav-enlace{
+  display: inline-block;
+  background: rgb(59, 211, 196);
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.nav-enlace:hover {
+  background: rgba(41, 41, 221, 0.776);
+}
+
+nav {
+  width: 100px;
+  padding: 30;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.nav-button {
+  background: rgba(90, 255, 222, 0.865);
+  color: white;
+  padding: 10px 0;
+  border: 2px solid white;
+  display: none;
+
+}
+
+@media (max-width: 600px) {
+  nav{
+      background: rgb(93, 195, 179);
+      flex-direction: column;
+  }
+.nav-enlace {
+  margin: 10px 0;
+}
+.nav-button {
+  display: inline-block;
+
+} 
+} 
+
+.contenedorPrincipal {
+  min-height: 95vh;
+  width: 100vw;
+  background-color: #83949E;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+  padding: 0;
+}
+
+.contenedorFormulario {
+  width: 900px;
+  height: 550px;
+  background: #AEC4D1;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 40px 20px 40px;
+}
+
+.titulo {
+  width: 440px;
+  height: 85px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #1E1E1E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+.miGitHub{
+  position: relative;
+  left: -410px;
+  bottom: 95px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #14141400;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s ease all;
+  position: relative;
+  overflow: hidden;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subtitulo {
+  width: 201px;
+  height: 47px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1E1E1E;
+}
+
+.texto {
+  box-sizing: border-box;
+  width: 200px;
+  height: 55px;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  outline: 0;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.texto.texto2{
+  width: 620px;
+}
+
+.random {
+  position: relative;
+  left: 78%;
+  bottom: 34%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #2B4452;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s ease all;
+  position: relative;
+  overflow: hidden;
+}
+
+svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random span {
+  position: relative;
+	z-index: 2;
+	transition: .5s ease all;
+}
+
+.random.efect::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .5s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+
+.random.efect:hover::after {
+	transform: scale(50);
+	background: #231aa8;
+}
+
+.random.efect:hover {
+	 background: #1b107e; 
+}
+
+.contenedorBotones {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.boton {
+  width: 300px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #2B4452;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+.boton.calcular::after {
+  content: "";
+	width: 100%;
+	height: 300px;
+	background: #18a362;
+	position: absolute;
+	z-index: 1;
+	top: -300px;
+	left: 0;
+	transition: .4s ease-in-out all;
+	border-radius: 0px 0px 300px 300px;
+}
+
+.boton.limpiar::after {
+	content: "";
+	width: 100%;
+	height: 300px;
+	background: #DF192E;
+	position: absolute;
+	z-index: 1;
+	top: -300px;
+	left: 0;
+	transition: .4s ease-in-out all;
+	border-radius: 0px 0px 300px 300px;
+}
+
+.boton.limpiar:hover::after {
+	top: 0;
+}
+
+.boton.calcular:hover::after {
+	top: 0;
+}
+
+.contenedorResultado {
+  width: 41vw;
+  min-height: 1px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0px;
+}
+
+.subtituloDos {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 35px;
+}
+
+.recorrido {
+  font-size: 30px;
+  margin: 10px;
+  letter-spacing: 2px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  word-wrap: break-word;
+  text-align:start;
+}
+
+.suma {
+  font-size: 30px;
+  margin: 10px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.error {
+  font-size: 30px;
+  margin: 10px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(247, 18, 18);
+}
+
+.contenedorPiramide {
+  min-width: 41vw;
+  min-height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.nivel {
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numero {
+  width: 38px;
+  height: 38px;
+  margin: 20px 10px 5px 10px;
+  font-family: 'Montserrat', sans-serif;
+  background: #73B3D9;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recorridoPiramide {
+  background-color: rgba(252, 19, 19, 0.884);
+}
