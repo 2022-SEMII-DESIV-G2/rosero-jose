@@ -1,0 +1,49 @@
+body {
+  background-image:url(../img/onepice.jpg);
+  background-repeat:round;
+  color: white;
+}
+
+
+svg {
+ color: white;
+}
+svg:hover{
+  color: black;
+}
+
+.piramides {
+  min-width: 41vw;
+  min-height: 1px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 10px 320px;
+  font-size: 2rem;
+}
+
+.dir {
+  margin: 10px 200px;
+}
+
+button {
+  width: 400px;
+  height: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgba(255, 248, 220, 0.368);
+  border: 2px solid rgb(255, 218, 199);
+}
+
+button:hover{
+  background-color: #df865cbd;
+  cursor: pointer;
+}
